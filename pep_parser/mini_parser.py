@@ -10,19 +10,16 @@ precedence = {
 }
 
 def add(a, b):
-    return a + b
+    return str(a + b)
 
 def subtract(a, b):
-    if(a-b==0):
-        print(0.0)
-    return a-b
+    return str(a - b)
 
 def multiply(a, b):
-    return a * b
+    return str(a * b)
 
 def divide(a, b):
-    return a / b
-
+    return str(a / b)
 operator_mapping = {
     "+": add,
     "-": subtract,
